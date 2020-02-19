@@ -206,7 +206,8 @@ main {
             flex-wrap: wrap;
 
             @include sm-block {
-                display: block;
+                justify-content: center;
+                padding: 10px;
             }
 
             .logo {
@@ -215,13 +216,16 @@ main {
                 text-align: center;
 
                 @include sm-block {
-                    display: none;
+                    width: 100%;
                 }
 
                 img {
                     vertical-align: middle;
                     max-height: 50px;
 
+                    @include sm-block {
+                        max-height: 35px;
+                    }
                 }
             }
 
@@ -234,10 +238,6 @@ main {
                 color: $color-primary;
                 text-decoration: underline;
                 margin-left: 10px;
-
-                @include sm-block {
-                    margin-left: 0;
-                }
             }
         }
     }

@@ -287,7 +287,10 @@ main {
 
 @media screen and (max-width: 768px) {
   .where-to-buy .area ul li {
-    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10px;
   }
 }
 
@@ -299,13 +302,19 @@ main {
 
 @media screen and (max-width: 768px) {
   .where-to-buy .area ul li .logo {
-    display: none;
+    width: 100%;
   }
 }
 
 .where-to-buy .area ul li .logo img {
   vertical-align: middle;
   max-height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .where-to-buy .area ul li .logo img {
+    max-height: 35px;
+  }
 }
 
 .where-to-buy .area ul li:not(:last-of-type) {
@@ -317,12 +326,6 @@ main {
   color: #d7b46a;
   text-decoration: underline;
   margin-left: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .where-to-buy .area ul li a {
-    margin-left: 0;
-  }
 }
 
 .contacts .form {

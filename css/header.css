@@ -37,13 +37,7 @@
 }
 
 .navbar .logo a img {
-  max-height: 75px;
-}
-
-@media screen and (max-width: 576px) {
-  .navbar .logo a img {
-    max-height: 60px;
-  }
+  max-height: 65px;
 }
 
 .navbar-inner {

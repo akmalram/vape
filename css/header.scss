@@ -32,11 +32,7 @@
     .logo {
         z-index: 111;
         a img {
-            max-height: 75px;
-
-            @include xs-block {
-                max-height: 60px;
-            }
+            max-height: 65px;
         }
     }
 

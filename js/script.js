@@ -11,11 +11,11 @@ const S = (selector) => {
 const on = (event, elements, callback) => {
     if(typeof elements === 'string') {
         document.querySelectorAll(elements).forEach(one => {
-            one.addEventListener(event, callback);
+            one.addEventListener(event, e => callback(e, current = one));
         })
     } else if(typeof elements == "object") {
         elements.forEach(one => {
-            one.addEventListener(event, callback);
+            one.addEventListener(event, e => callback(e, current = one));
         });
     }
 }
@@ -65,7 +65,31 @@ ready(() => {
         });
     }
 
+    const menuClose = () => {
+        const btn = document.querySelector('.navbar .toggle-btn');
+        const menu = document.querySelector('.navbar .menu');
+        console.log('asdf')
+
+        menu.classList.remove('active');
+        btn.classList.remove('active');
+        document.querySelector('body').classList.remove('overhidden');
+    }
+
     MenuClassToggler();
+
+    let scrollToAnchor = () => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                menuClose();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    }
+
+    scrollToAnchor();
 });
 
 ready(() => {
@@ -208,4 +232,22 @@ ready(() => {
     }
 
     modalToggler('.modal.ageCheck');
+});
+
+// Form handling
+
+ready(() => {
+    const form = S('.form');
+    on('submit', form, (e, current) => {
+        e.preventDefault();
+        $.ajax({
+            method: "POST",
+            url: "send.php",
+            data: $(current).serialize(),
+        })
+        .done(function() {
+            alert('Ваша заявка принята!')
+            current.reset();
+        });
+    })
 });

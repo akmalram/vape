@@ -186,6 +186,12 @@ button {
     text-align: center;
 }
 
+.text-sm-center {
+    @include sm-block {
+        text-align: center;
+    }
+}
+
 .overhidden {
     @include sm-block {
         overflow: hidden;

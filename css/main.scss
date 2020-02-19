@@ -35,13 +35,27 @@ main {
             text-align: right;
         }
 
+        @include sm-block {
+            height: 320px;
+            justify-content: flex-end;
+            text-align: right;
+        }
+
         .title {
             font-size: 50px;
             font-weight: bold;
+
+            @include xs-block {
+                font-size: 40px;
+            }
         }
 
         .desc {
             font-size: 18px;
+
+            @include xs-block {
+                font-size: 14px;
+            }
         }
 
         &:not(:last-of-type) {
@@ -52,30 +66,51 @@ main {
             border-color: #D57738;
             color: #D57738;
             background-image: url(../images/mango.png);
+
+
+            @include sm-block {
+                background-image: url(../images/mango-sm.png);
+            }
         }
 
         &.mint {
             border-color: #388A51;
             color: #388A51;
             background-image: url(../images/mint.png);
+
+            @include sm-block {
+                background-image: url(../images/mint-sm.png);
+            }
         }
 
         &.blueberry {
             border-color: #4A4A7C;
             color: #4A4A7C;
             background-image: url(../images/blueberry.png);
+
+            @include sm-block {
+                background-image: url(../images/blueberry-sm.png);
+            }
         }
 
         &.tabacco {
             border-color: #B1893E;
             color: #B1893E;
             background-image: url(../images/tabacco.png);
+
+            @include sm-block {
+                background-image: url(../images/tabacco-sm.png);
+            }
         }
 
         &.coffee {
             border-color: #595959;
             color: #595959;
             background-image: url(../images/coffee.png);
+
+            @include sm-block {
+                background-image: url(../images/coffee-sm.png);
+            }
         }
     }
 }

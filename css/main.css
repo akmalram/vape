@@ -57,13 +57,35 @@ main {
   text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+  .catalog .item {
+    height: 320px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    text-align: right;
+  }
+}
+
 .catalog .item .title {
   font-size: 50px;
   font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+  .catalog .item .title {
+    font-size: 40px;
+  }
+}
+
 .catalog .item .desc {
   font-size: 18px;
+}
+
+@media screen and (max-width: 576px) {
+  .catalog .item .desc {
+    font-size: 14px;
+  }
 }
 
 .catalog .item:not(:last-of-type) {
@@ -76,10 +98,22 @@ main {
   background-image: url(../images/mango.png);
 }
 
+@media screen and (max-width: 768px) {
+  .catalog .item.mango {
+    background-image: url(../images/mango-sm.png);
+  }
+}
+
 .catalog .item.mint {
   border-color: #388A51;
   color: #388A51;
   background-image: url(../images/mint.png);
+}
+
+@media screen and (max-width: 768px) {
+  .catalog .item.mint {
+    background-image: url(../images/mint-sm.png);
+  }
 }
 
 .catalog .item.blueberry {
@@ -88,16 +122,34 @@ main {
   background-image: url(../images/blueberry.png);
 }
 
+@media screen and (max-width: 768px) {
+  .catalog .item.blueberry {
+    background-image: url(../images/blueberry-sm.png);
+  }
+}
+
 .catalog .item.tabacco {
   border-color: #B1893E;
   color: #B1893E;
   background-image: url(../images/tabacco.png);
 }
 
+@media screen and (max-width: 768px) {
+  .catalog .item.tabacco {
+    background-image: url(../images/tabacco-sm.png);
+  }
+}
+
 .catalog .item.coffee {
   border-color: #595959;
   color: #595959;
   background-image: url(../images/coffee.png);
+}
+
+@media screen and (max-width: 768px) {
+  .catalog .item.coffee {
+    background-image: url(../images/coffee-sm.png);
+  }
 }
 
 .about {

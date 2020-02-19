@@ -371,6 +371,12 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .text-sm-center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .overhidden {
     overflow: hidden;
   }

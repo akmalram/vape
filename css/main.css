@@ -84,7 +84,7 @@ main {
 }
 
 .catalog .item .desc {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 576px) {
@@ -304,6 +304,7 @@ main {
   width: 100px;
   margin-right: 20px;
   text-align: center;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {

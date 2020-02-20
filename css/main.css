@@ -58,12 +58,17 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  .catalog .item.right {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .catalog .item {
     height: 320px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    text-align: right;
   }
 }
 

@@ -319,50 +319,50 @@ header {
         }
 
         &.slide-1 .background {
-            background-image: url(../images/slider-image-1.png);
+            background-image: url(../images/slider-image-1.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-1-sm.png);
+                background-image: url(../images/slider-image-1-sm.jpg);
             }
         }
 
         &.slide-2 .background {
-            background-image: url(../images/slider-image-2.png);
+            background-image: url(../images/slider-image-2.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-2-sm.png);
+                background-image: url(../images/slider-image-2-sm.jpg);
             }
         }
 
         &.slide-3 .background {
-            background-image: url(../images/slider-image-3.png);
+            background-image: url(../images/slider-image-3.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-3-sm.png);
+                background-image: url(../images/slider-image-3-sm.jpg);
             }
         }
 
         &.slide-4 .background {
-            background-image: url(../images/slider-image-4.png);
+            background-image: url(../images/slider-image-4.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-4-sm.png);
+                background-image: url(../images/slider-image-4-sm.jpg);
             }
         }
 
         &.slide-5 .background {
-            background-image: url(../images/slider-image-5.png);
+            background-image: url(../images/slider-image-5.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-5-sm.png);
+                background-image: url(../images/slider-image-5-sm.jpg);
             }
         }
 
         &.slide-6 .background {
-            background-image: url(../images/slider-image-6.png);
+            background-image: url(../images/slider-image-6.jpg);
 
             @include sm-block {
-                background-image: url(../images/slider-image-6-sm.png);
+                background-image: url(../images/slider-image-6-sm.jpg);
             }
         }
     }

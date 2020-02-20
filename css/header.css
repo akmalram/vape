@@ -428,62 +428,62 @@ header .swiper-slide.swiper-slide-active .background {
 }
 
 header .swiper-slide.slide-1 .background {
-  background-image: url(../images/slider-image-1.png);
+  background-image: url(../images/slider-image-1.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-1 .background {
-    background-image: url(../images/slider-image-1-sm.png);
+    background-image: url(../images/slider-image-1-sm.jpg);
   }
 }
 
 header .swiper-slide.slide-2 .background {
-  background-image: url(../images/slider-image-2.png);
+  background-image: url(../images/slider-image-2.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-2 .background {
-    background-image: url(../images/slider-image-2-sm.png);
+    background-image: url(../images/slider-image-2-sm.jpg);
   }
 }
 
 header .swiper-slide.slide-3 .background {
-  background-image: url(../images/slider-image-3.png);
+  background-image: url(../images/slider-image-3.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-3 .background {
-    background-image: url(../images/slider-image-3-sm.png);
+    background-image: url(../images/slider-image-3-sm.jpg);
   }
 }
 
 header .swiper-slide.slide-4 .background {
-  background-image: url(../images/slider-image-4.png);
+  background-image: url(../images/slider-image-4.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-4 .background {
-    background-image: url(../images/slider-image-4-sm.png);
+    background-image: url(../images/slider-image-4-sm.jpg);
   }
 }
 
 header .swiper-slide.slide-5 .background {
-  background-image: url(../images/slider-image-5.png);
+  background-image: url(../images/slider-image-5.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-5 .background {
-    background-image: url(../images/slider-image-5-sm.png);
+    background-image: url(../images/slider-image-5-sm.jpg);
   }
 }
 
 header .swiper-slide.slide-6 .background {
-  background-image: url(../images/slider-image-6.png);
+  background-image: url(../images/slider-image-6.jpg);
 }
 
 @media screen and (max-width: 768px) {
   header .swiper-slide.slide-6 .background {
-    background-image: url(../images/slider-image-6-sm.png);
+    background-image: url(../images/slider-image-6-sm.jpg);
   }
 }
 

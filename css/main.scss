@@ -65,51 +65,51 @@ main {
         &.mango {
             border-color: #D57738;
             color: #D57738;
-            background-image: url(../images/mango.png);
+            background-image: url(../images/mango.jpg);
 
 
             @include sm-block {
-                background-image: url(../images/mango-sm.png);
+                background-image: url(../images/mango-sm.jpg);
             }
         }
 
         &.mint {
             border-color: #388A51;
             color: #388A51;
-            background-image: url(../images/mint.png);
+            background-image: url(../images/mint.jpg);
 
             @include sm-block {
-                background-image: url(../images/mint-sm.png);
+                background-image: url(../images/mint-sm.jpg);
             }
         }
 
         &.blueberry {
             border-color: #4A4A7C;
             color: #4A4A7C;
-            background-image: url(../images/blueberry.png);
+            background-image: url(../images/blueberry.jpg);
 
             @include sm-block {
-                background-image: url(../images/blueberry-sm.png);
+                background-image: url(../images/blueberry-sm.jpg);
             }
         }
 
         &.tabacco {
             border-color: #B1893E;
             color: #B1893E;
-            background-image: url(../images/tabacco.png);
+            background-image: url(../images/tabacco.jpg);
 
             @include sm-block {
-                background-image: url(../images/tabacco-sm.png);
+                background-image: url(../images/tabacco-sm.jpg);
             }
         }
 
         &.coffee {
             border-color: #595959;
             color: #595959;
-            background-image: url(../images/coffee.png);
+            background-image: url(../images/coffee.jpg);
 
             @include sm-block {
-                background-image: url(../images/coffee-sm.png);
+                background-image: url(../images/coffee-sm.jpg);
             }
         }
     }

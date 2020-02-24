@@ -409,12 +409,12 @@ button {
 }
 
 ::-moz-selection {
-  color: #060009;
+  color: #151515;
   background: #d7b46a;
 }
 
 ::selection {
-  color: #060009;
+  color: #151515;
   background: #d7b46a;
 }
 
@@ -428,7 +428,7 @@ button {
 }
 
 .btn-primary {
-  color: #060009;
+  color: #151515;
   font-size: 20px;
   border: none;
   padding: 10px 25px;
@@ -461,7 +461,7 @@ button {
 }
 
 .btn-telegram {
-  color: #060009;
+  color: #151515;
   font-size: 20px;
   border: none;
   padding: 10px 25px;

@@ -1,5 +1,5 @@
 main {
-  background: #060009;
+  background: #151515;
   padding-bottom: 50px;
 }
 
@@ -33,8 +33,8 @@ main {
   width: calc(50% - 30px);
   height: 400px;
   box-sizing: border-box;
-  border: 2px solid #060009;
-  background-color: #060009;
+  border: 2px solid #151515;
+  background-color: #151515;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -84,12 +84,12 @@ main {
 }
 
 .catalog .item .desc {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 576px) {
   .catalog .item .desc {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 
@@ -265,7 +265,7 @@ main {
 .where-to-buy .area-title {
   text-align: center;
   background-color: #d7b46a;
-  color: #060009;
+  color: #151515;
   font-size: 22px;
   padding: 6px 0;
 }
@@ -352,7 +352,7 @@ main {
 .contacts .form .input {
   padding: 12px 13px;
   font-size: 21px;
-  color: #060009;
+  color: #151515;
   border: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -362,19 +362,19 @@ main {
 }
 
 .contacts .form .input::-webkit-input-placeholder {
-  color: #060009;
+  color: #151515;
 }
 
 .contacts .form .input:-ms-input-placeholder {
-  color: #060009;
+  color: #151515;
 }
 
 .contacts .form .input::-ms-input-placeholder {
-  color: #060009;
+  color: #151515;
 }
 
 .contacts .form .input::placeholder {
-  color: #060009;
+  color: #151515;
 }
 
 .contacts .form .input-phone::-webkit-outer-spin-button, .contacts .form .input-phone::-webkit-inner-spin-button {
@@ -437,7 +437,7 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   z-index: 11;
-  background-color: #060009;
+  background-color: #151515;
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
 }
@@ -558,7 +558,7 @@ main {
 
 footer {
   padding: 80px 0;
-  background: #060009;
+  background: #151515;
   text-align: center;
 }
 

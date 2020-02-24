@@ -54,10 +54,10 @@ main {
         }
 
         .desc {
-            font-size: 16px;
+            font-size: 20px;
 
             @include xs-block {
-                font-size: 14px;
+                font-size: 17px;
             }
         }
 

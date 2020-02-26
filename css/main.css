@@ -72,6 +72,10 @@ main {
   }
 }
 
+.catalog .item > div {
+  max-width: 70%;
+}
+
 .catalog .item .title {
   font-size: 50px;
   font-weight: bold;
@@ -85,6 +89,7 @@ main {
 
 .catalog .item .desc {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 576px) {

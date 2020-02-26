@@ -44,6 +44,10 @@ main {
             height: 320px;
         }
 
+        & > div {
+            max-width: 70%;
+        }
+
         .title {
             font-size: 50px;
             font-weight: bold;
@@ -55,6 +59,7 @@ main {
 
         .desc {
             font-size: 20px;
+            margin-bottom: 10px;
 
             @include xs-block {
                 font-size: 17px;

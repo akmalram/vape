@@ -279,9 +279,9 @@ ready(() => {
 
         const distance = getDistanceFromLatLonInKm(
             coords.latitude, coords.longitude, 41.33477, 69.370285
-        ).toFixed(3)
+        ).toFixed(3);
 
-        alert(`You're ${distance} meters away from the shop`)
-    })
-})
+        alert(`You're ${distance} meters away from the shop`);
+    });
+});
 
